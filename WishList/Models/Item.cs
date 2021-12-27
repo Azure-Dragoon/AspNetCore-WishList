@@ -10,7 +10,7 @@ namespace WishList.Models
     {
         public int Id { get; set; }
         [MaxLength(50)]
-        public int Description  { get; set; }
+        public string Description  { get; set; }
 
     }
 }
